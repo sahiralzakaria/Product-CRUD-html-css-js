@@ -21,3 +21,22 @@ function getTotal() {
     }
 
 }
+
+//create product
+
+let dataPro = [];
+
+submit.onclick = function () {
+
+    let newPro = {
+        title: title.value,
+        price: price.value,
+        taxes: taxes.value,
+        ads: ads.value,
+        discount: discount.value,
+        total: total.innerHTML,
+        count: count.value,
+        category: category.value,
+
+    }
+}
