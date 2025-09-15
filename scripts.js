@@ -49,4 +49,22 @@ submit.onclick = function () {
 
     dataPro.push(newPro);
     localStorage.setItem('product', JSON.stringify(dataPro));
+
+    clearData();
+}
+
+// clear data
+
+function clearData() {
+
+    title.value = '';
+    price.value = '';
+    taxes.value = '';
+    ads.value = '';
+    discount.value = '';
+    total.innerHTML = '';
+    count.value = '';
+    category.value = '';
+    total.style.background = '#a00d02';
+
 }
