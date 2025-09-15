@@ -77,6 +77,10 @@ button:hover {
     justify-content: space-between;
 }
 
+#deleteAll {
+    margin: 20px 0;
+}
+
 .btnSearch button {
     width: 45%;
 }
