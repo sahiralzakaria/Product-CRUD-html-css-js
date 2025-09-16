@@ -1,101 +1,188 @@
-* {
-    padding: 0;
-    margin: 0;
-}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-body {
-    background: #222;
-    color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
 
-.crud {
-    width: 80%;
-    margin: auto;
-}
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
 
-.head {
-    text-align: center;
-    text-transform: uppercase;
-    margin: 10px 0;
-}
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+            font-size: 28px;
+        }
 
-input {
-    width: 100%;
-    height: 30px;
-    outline: none;
-    border: none;
-    background: #111;
-    color: #fff;
-    margin: 4px 0;
-    border-radius: 4px;
-    padding: 5px;
+        .form-section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
 
-}
+        .form-row {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+            align-items: center;
+        }
 
-input:focus {
-    background: #000;
-    transform: scale(1.1);
-}
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
 
-input:hover {
-    background: #000;
-}
+        input[type="text"],
+        input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            font-size: 14px;
+        }
 
-.price input {
-    width: 20%;
-}
+        input[type="text"]:focus,
+        input[type="number"]:focus {
+            outline: none;
+            border-color: #007cba;
+        }
 
-#total {
-    background: #a00d02;
-    padding: 5px 2px;
-    border-radius: 4px;
-}
+        .price-inputs {
+            display: flex;
+            gap: 10px;
+        }
 
-#total::before {
-    content: "Total : ";
-}
+        .price-inputs input {
+            flex: 1;
+        }
 
-button {
-    width: 100%;
-    height: 30px;
-    border: none;
-    cursor: pointer;
-    background: rgb(47, 0, 72);
-    color: #fff;
-    border-radius: 20px;
-    transition: 0.5;
-}
+        #total {
+            background-color: #f0f0f0;
+            padding: 8px 12px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            font-weight: bold;
+            min-width: 100px;
+            text-align: center;
+        }
 
-button:hover {
-    letter-spacing: 1px;
-    background: rgb(65, 8, 109);
-}
+        .btn {
+            background-color: #007cba;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 14px;
+        }
 
-.btnSearch {
-    display: flex;
-    justify-content: space-between;
-}
+        .btn:hover {
+            background-color: #005a87;
+        }
 
-#deleteAll {
-    margin: 20px 0;
-}
+        .btn-danger {
+            background-color: #d9534f;
+        }
 
-.btnSearch button {
-    width: 45%;
-}
+        .btn-danger:hover {
+            background-color: #c9302c;
+        }
 
-table {
-    width: 100%;
-    text-align: center;
-    margin: 10px 0;
-}
+        .btn-success {
+            background-color: #5cb85c;
+        }
 
-table th {
-    text-transform: uppercase;
-}
+        .btn-success:hover {
+            background-color: #449d44;
+        }
 
-th,
-td {
-    padding: 5px;
-}
+        .search-section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .search-buttons {
+            margin-top: 10px;
+        }
+
+        .search-buttons button {
+            margin-right: 10px;
+        }
+
+        table {
+            width: 100%;
+            background: white;
+            border-collapse: collapse;
+            border: 1px solid #ddd;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f8f8f8;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f0f0f0;
+        }
+
+        .action-buttons {
+            white-space: nowrap;
+        }
+
+        .action-buttons button {
+            padding: 5px 10px;
+            margin-right: 5px;
+            font-size: 12px;
+        }
+
+        #deleteAll {
+            margin: 15px 0;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .price-inputs {
+                flex-direction: column;
+            }
+
+            .search-buttons button {
+                width: 100%;
+                margin: 5px 0;
+            }
+
+            table {
+                font-size: 12px;
+            }
+
+            .action-buttons button {
+                padding: 3px 6px;
+                font-size: 10px;
+            }
+        }
