@@ -4,6 +4,7 @@ A simple web app to manage your products. Add, edit, delete, and search products
 
 ![Main View](assets/main-view.png)
 
+
 ## Features
 
 - Add new products with price details
@@ -73,6 +74,7 @@ No installation needed.
 </div>
 
 ---
+
 
 
 
