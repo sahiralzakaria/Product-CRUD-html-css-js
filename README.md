@@ -14,6 +14,7 @@ A simple web app to manage your products. Add, edit, delete, and search products
 - Auto calculate total price
 - Data saves automatically
 
+
 ## How to Use
 
 ### Add Product
@@ -75,6 +76,7 @@ No installation needed.
 </div>
 
 ---
+
 
 
 
