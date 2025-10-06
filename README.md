@@ -23,7 +23,6 @@ A simple web app to manage your products. Add, edit, delete, and search products
 3. Add quantity and category
 4. Click "Add Product"
 
-
 ![Add Product](assets/add-product.png)
 
 ### Manage Products
@@ -76,6 +75,7 @@ No installation needed.
 </div>
 
 ---
+
 
 
 
