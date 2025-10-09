@@ -51,7 +51,6 @@ No installation needed.
 
 ## Files
 
-
 ```
 ├── index.html     # Main file
 ├── scripts.js     # JavaScript code  
@@ -75,6 +74,7 @@ No installation needed.
 </div>
 
 ---
+
 
 
 
