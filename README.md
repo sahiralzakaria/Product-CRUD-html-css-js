@@ -34,6 +34,7 @@ A simple web app to manage your products. Add, edit, delete, and search products
 ![Product List](assets/product-list.png)
 
 
+
 ### Search
 - Type in search box
 - Choose "Search by Title" or "Search by Category"
@@ -75,6 +76,7 @@ No installation needed.
 </div>
 
 ---
+
 
 
 
