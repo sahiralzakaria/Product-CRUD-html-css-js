@@ -7,7 +7,6 @@ A simple web app to manage your products. Add, edit, delete, and search products
 
 ## Features
 
-
 - Add new products with price details
 - Edit existing products
 - Delete products
@@ -76,6 +75,7 @@ No installation needed.
 </div>
 
 ---
+
 
 
 
