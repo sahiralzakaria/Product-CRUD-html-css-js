@@ -41,7 +41,6 @@ A simple web app to manage your products. Add, edit, delete, and search products
 ![Search](assets/search.png)
 
 
-
 ## Setup
 
 1. Download files
@@ -75,6 +74,7 @@ No installation needed.
 </div>
 
 ---
+
 
 
 
